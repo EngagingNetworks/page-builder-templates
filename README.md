@@ -4,4 +4,4 @@ Templates in page-builder require a header and a footer. These are separated int
 
 So far there is only one template here, but more will be added soon.
 
-- **Simple Template** - a template with almost the absolute minimum. This is useful for testing where an issue is due to your template or something else
+- **Simple Template** - a template with almost the absolute minimum. This is useful for testing whether an issue is due to your template or something else
