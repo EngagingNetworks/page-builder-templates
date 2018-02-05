@@ -5,4 +5,4 @@ Templates in page-builder require a header and a footer. These are separated int
 So far there is only one template here, but more will be added soon.
 
 - **Simple Template** - a template with almost the absolute minimum. This is useful for testing whether an issue is due to your template or something else
-- **Styled Template** - 4Site have developed a template that can be easily updated with your own logo and colours
+- **Styled Template** - 4Site have developed a [template](https://github.com/4site-interactive-studios/Engaging-Networks-Page-Template) that can be easily updated with your own logo and colours
