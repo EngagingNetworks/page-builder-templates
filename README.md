@@ -4,4 +4,4 @@ Templates in page-builder require a header and a footer. These are separated int
 
 More will be added soon.
 
-- **Simple Template** - a simple template with almost the absolute minimum. This is useful for testing whether an issue is due to your template or something else, or for beginning templates from scratch. The files are in this repository
+- **Simple Template** - a simple template with almost the absolute minimum. This is useful for testing whether an issue is due to your template or something else, or for beginning templates from scratch. The files are in this repository: [Header](https://github.com/EngagingNetworks/page-builder-templates/blob/master/simple-template-header.html) and [Footer](https://github.com/EngagingNetworks/page-builder-templates/blob/master/simple-template-footer.html)
