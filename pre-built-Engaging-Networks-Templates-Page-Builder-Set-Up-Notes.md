@@ -100,7 +100,9 @@ Form Block, class="donation-amt", label position Default
 
 Text Block, class="personal-information-title"
 
--   &lt;h2&gt;Personal Information&lt;/h2&gt;
+```html
+<h2>Personal Information</h2>
+```
 
 Form Block, class="personal-information", label position "Above field"
 
@@ -114,7 +116,9 @@ Form Block, class="personal-information", label position "Above field"
 
 Text Block, class="address-title"
 
--   &lt;h2&gt;Address&lt;/h2&gt;
+```html
+<h2>Address</h2>
+```
 
 Form Block, class="address", label position "Above field"
 
@@ -137,7 +141,9 @@ Form Block, class="address", label position "Above field"
 
 Text Block, class="payment-information-title"
 
--   &lt;h2&gt;Payment Information&lt;/h2&gt;
+```html
+<h2>Payment Information</h2>
+```
 
 Form Block, class="payment-information", label position "Above field"
 
@@ -203,7 +209,9 @@ Form Block, class="payment-information", label position "Above field"
 
 Text Block, class="newsletters-title"
 
--   &lt;h2&gt;Newsletters&lt;/h2&gt;
+```html
+<h2>Newsletters</h2>
+```
 
 Form Block, class="newsletters", label position "Above field"
 
@@ -217,7 +225,9 @@ Form Block, class="newsletters", label position "Above field"
 
 Text Block, class="personal-information-title"
 
--   &lt;h2&gt;Personal Information&lt;/h2&gt;
+```html
+<h2>Personal Information</h2>
+```
 
 Form Block, class="personal-information", label position "Above field"
 
@@ -231,7 +241,9 @@ Form Block, class="personal-information", label position "Above field"
 
 Text Block, class=""address-title"
 
--   &lt;h2&gt;Address&lt;/h2&gt;
+```html
+<h2>Address</h2>
+```
 
 Form Block, class="address", label position "Above field", Margin 0 0 2rem 0
 
@@ -254,11 +266,15 @@ Form Block, class="address", label position "Above field", Margin 0 0 2rem 0
 
 Text Block, class=" view-message"
 
--   &lt;p&gt;&lt;button aria-expanded="false" class="btn btn--view-message" id="viewMessage" role="tab" type="button"&gt;View Message Details&lt;/button&gt;&lt;/p&gt;
+```html
+<p><button aria-expanded="false" class="btn btn--view-message" id="viewMessage" role="tab" type="button">View Message Details</button></p>
+```
 
 Text Block, class="newsletters-title"
 
--   &lt;h2&gt;Newsletters&lt;/h2&gt;
+```html
+<h2>Newsletters</h2>
+```
 
 Form Block, class="newsletters", label position "Above field"
 
