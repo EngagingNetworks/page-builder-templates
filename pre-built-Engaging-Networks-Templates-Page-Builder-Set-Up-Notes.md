@@ -1,12 +1,10 @@
-# Template Primer #
+# Template Primer
 
 The 4Site template consists of minimal page structure markup (3 divs and a logo) and one JS and one CSS file located in the footer of the template. The Javascript has no dependencies. The template can be found in 4Site's Demo Account under the template folder "4Site Templates" and the template name "4Site Template". This template works across Donation pages, Targeted Advocacy Actions, Custom Target Advocacy Actions, Petitions, Email Sign Up pages, Unsubscribe pages, and Data Capture pages. This template has also been tested and supports all standard EN input field types. Testing pages can be found in 4Site's Demo Account under the "Manage Pages" section in the "4Site Template Demo Pages" folder.
 
 **Important Notes:** The template JS and CSS have not been minified but in your set up you will want to do this.
 
-<span id="anchor-1"></span>
-
-<span id="anchor-2"></span>Code Repositories
+## Code Repositories
 
 -   Page Template
 
@@ -16,7 +14,7 @@ The 4Site template consists of minimal page structure markup (3 divs and a logo)
 
     -   [*https://github.com/4site-interactive-studios/Engaging-Networks-Email-Template*](https://github.com/4site-interactive-studios/Engaging-Networks-Email-Template)
 
-<span id="anchor-3"></span>Template Testing Pages
+## Template Testing Pages
 
 -   Donate Single Step
 
@@ -52,9 +50,9 @@ The 4Site template consists of minimal page structure markup (3 divs and a logo)
 
     -   [*https://e-activist.com/page/14269/data/1*](https://e-activist.com/page/14269/data/1)
 
-<span id="anchor-4"></span>Set Up for Donation Pages
+## Set Up for Donation Pages
 
-<span id="anchor-5"></span>Section: Gift Frequency and Amount
+### Section: Gift Frequency and Amount
 
 Text Block
 
@@ -73,7 +71,7 @@ Form Block, class="recurring-payment", label position "Above field"
 
 -   Recurring Frequency (hidden), Hidden
 
-<span id="anchor-6"></span>Dependencies
+### Dependencies
 
 If Recurring Payment == Y
 Set Recurring Frequency (hidden) to "MONTHLY"
@@ -96,7 +94,7 @@ Form Block, class="donation-amt", label position Default
 
     -   Default: USD
 
-<span id="anchor-7"></span>Section: Personal Information
+### Section: Personal Information
 
 Text Block, class="personal-information-title"
 
@@ -110,7 +108,7 @@ Form Block, class="personal-information", label position "Above field"
 
 -   Email Address
 
-<span id="anchor-8"></span>Section: Address
+### Section: Address
 
 Text Block, class="address-title"
 
@@ -133,7 +131,7 @@ Form Block, class="address", label position "Above field"
 
     -   List loaded from EN database. Will be payment processor dependent.
 
-<span id="anchor-9"></span>Section: Payment Information
+### Section: Payment Information
 
 Text Block, class="payment-information-title"
 
@@ -211,11 +209,9 @@ Form Block, class="newsletters", label position "Above field"
 
 -   Enable Submit Button
 
-<span id="anchor-10"></span>
+## Set Up for Advocacy Pages
 
-<span id="anchor-11"></span>Set Up for Advocacy Pages
-
-<span id="anchor-12"></span>Section: Personal Information
+### Section: Personal Information
 
 Text Block, class="personal-information-title"
 
@@ -229,7 +225,7 @@ Form Block, class="personal-information", label position "Above field"
 
 -   Email Address
 
-<span id="anchor-13"></span>Section: Address
+### Section: Address
 
 Text Block, class=""address-title"
 
@@ -252,7 +248,7 @@ Form Block, class="address", label position "Above field", Margin 0 0 2rem 0
 
     -   List loaded from EN database. Will be payment processor dependent.
 
-<span id="anchor-14"></span>Section: Message(s)
+### Section: Message(s)
 
 Text Block, class=" view-message"
 
@@ -268,7 +264,7 @@ Form Block, class="newsletters", label position "Above field"
 
 -   Enable Submit Button
 
-<span id="anchor-15"></span>Expanded Documentation
+## Expanded Documentation
 
 **Only applicable to some instances of the page templates**
 
