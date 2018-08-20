@@ -1,4 +1,4 @@
-<span id="anchor"></span>Template Primer
+#Template Primer
 
 The 4Site template consists of minimal page structure markup (3 divs and a logo) and one JS and one CSS file located in the footer of the template. The Javascript has no dependencies. The template can be found in 4Site's Demo Account under the template folder "4Site Templates" and the template name "4Site Template". This template works across Donation pages, Targeted Advocacy Actions, Custom Target Advocacy Actions, Petitions, Email Sign Up pages, Unsubscribe pages, and Data Capture pages. This template has also been tested and supports all standard EN input field types. Testing pages can be found in 4Site's Demo Account under the "Manage Pages" section in the "4Site Template Demo Pages" folder.
 
