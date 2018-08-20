@@ -56,7 +56,9 @@ The 4Site template consists of minimal page structure markup (3 divs and a logo)
 
 Text Block
 
--   &lt;h2&gt;Gift Frequency and Amount&lt;/h2&gt;
+```html
+<h2>Gift Frequency and Amount</h2>
+```
 
 Form Block, class="recurring-payment", label position "Above field"
 
