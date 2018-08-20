@@ -2,7 +2,7 @@
 
 The two sample templates provided by 4Site are called "Engaging Networks Wide Template (beta)" and "Engaging Networks Multistep Template (beta)". They work across Donation pages, Email to Target pages, Petitions, Email Sign Up pages, Unsubscribe pages, and Data Capture pages. The templates have also been tested and support all standard Engaging Network input field types. Testing pages can be found below.
 
-They consist of minimal page structure markup (3 divs and a logo) and one JS and one CSS file located in the footer of the template. The Javascript has no dependencies. The template JS and CSS have not been minified but in your set up you will want to do this.
+They consist of minimal page structure markup (3 divs and a logo) and one JS and one CSS file located in the footer of the template. The Javascript file has no dependencies. The template JS and CSS have not been minified but in your set up you will want to do this.
 
 ## Code Repositories
 
