@@ -74,14 +74,17 @@ Form Block, class="recurring-payment", label position "Above field"
 -   Recurring Frequency (hidden), Hidden
 
 ### Dependencies
+*This may be payment processor dependent.*
 
+```
 If Recurring Payment == Y
 Set Recurring Frequency (hidden) to "MONTHLY"
+```
 
-This may be payment processor dependent.
-
+```
 If Recurring Payment ==
 Set Recurring Frequency (hidden) to ""
+```
 
 Form Block, class="donation-amt", label position Default
 
