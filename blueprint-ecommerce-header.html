@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>${page~title}</title>
+		
+    <style>
+		
+			html, body {
+				margin:0;
+				padding:0 0 100px 0;
+				font-family: ${blueprint~general_font};
+				background: ${blueprint~general_backgroundcolor};
+				font-size: ${blueprint~general_fontsize};
+				color:${blueprint~general_color};
+			}
+			
+			a {
+				color:${blueprint~general_linkcolor};
+				text-decoration:none;
+			}
+			
+			.wrapper {
+				width: 940px;
+				margin:auto;
+			}
+			.header h1{
+				font-size: ${blueprint~logo_fontsize};
+				padding: 24px;
+				margin:0;
+				color:${blueprint~logo_fontcolor};
+			}
+			.header h1 img {
+				vertical-align:middle;
+				margin-right: 24px;
+			}
+			
+			.en__component--ecnav  {
+				padding: 12px 0;
+				font-size: 16px;
+			}
+			.en__component--ecnav--sticky {
+				padding:0;
+			}
+			html .en__ecnav--sticky .en__ecnav__list--main {
+				background:${blueprint~nav_backgroundcolor};
+				border:0;
+				box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.12);
+			}
+			html .en__ecnav--sticky .en__ecnav__list--submenu {
+				background: ${blueprint~nav_backgroundcolor};
+			}
+			html .en__ecnav--sticky .en__ecnav__item:hover{
+				background-color:${blueprint~nav_hover};
+			}
+			html .en__ecnav--sticky .en__ecnav__item a {
+				padding: 18px 24px;
+			}
+			html .en__ecnav--sticky .en__ecnav__item--submenu a {
+				padding-right: 34px;
+			}
+			
+			h2 {
+				font-size: 24px;
+				padding: 12px 0;
+				margin:0;
+				color:${blueprint~general_hcolor};
+			}			
+			h3 {
+				font-size:18px;
+				padding: 9px 0;
+				margin:0;
+				color:${blueprint~general_hcolor};
+			}			
+			h4 {
+				font-size: 16px;
+				padding: 8px 0;
+				margin:0;
+				color:${blueprint~general_hcolor};
+			}
+						
+			h5 {
+				font-size: 12px;
+				padding: 6px 0;
+				margin:0;
+				color:${blueprint~general_hcolor};
+			}
+			
+
+			html .en__submit button,
+			html .en__button,
+			html a.en__button:visited,
+			html .en__ecfeature__link a, 
+			html .en__ecfeature__link a:visited {
+				font-family: ${blueprint~button_font};
+				background-color: ${blueprint~button_background};
+				color:${blueprint~button_color};
+				font-weight: bold;
+				padding: 9px 12px;
+				border: 0;
+				border-radius: 6px;
+			}
+			
+			html .en__button--ajax--inprogress {
+				background-image: url('${blueprint~button_loading}');
+				background-size: auto 100%;
+				background-size: contain;
+			}
+
+			html .en__button--ajax--done {
+				background-image: url('${blueprint~button_success}');
+				background-size: auto 100%;
+				background-size: contain;
+			}
+			
+/**
+ * Columns
+ */
+			.en__component--row > .en__component--column {
+				padding: 0 12px;
+			}
+			
+/**
+ * Content blocks
+ */
+			
+			.en__component--ecfeature,
+			.en__component--copyblock,
+			.en__component--ecproduct,
+			.en__component--formblock,
+			.en__component--eccheckout,
+			.en__component--ecordersummary,
+			.en__component--ecdelivery,
+			.en__product--box
+			{
+				background: ${blueprint~block_background};
+				padding: 12px 24px;
+				border-radius: 6px;
+				border: ${blueprint~block_border};
+				margin: 12px 0;
+			}
+			
+			.en__component--copyblock {
+				overflow:hidden;
+			}
+			
+/**
+ *	Featured Product
+ */
+
+			.en__ecfeature {
+				align-items: center;
+				padding: 12px 0;
+			}
+
+			.en__ecfeature__image img {
+				display:block;
+				border: ${blueprint~block_border};
+			}
+			
+			html .en__component--ecfeature .en__ecfeature__content {
+				margin-left: 24px;
+			}
+
+			
+/**
+ * Featured List
+ */
+			 
+			.en__ecscroller__wrap {
+				margin: 0 -12px;
+			}
+
+
+/**
+ * Category List
+ */
+            .en__eccatlist__categoryName {
+                text-align:center;
+            }
+
+/**
+ * responsive
+ */
+.en__ecnav--sticky .en__ecnav__item--menuToggle.active {
+	background-color:${blueprint~nav_hover};
+}
+.en__ecnav--sticky .en__ecnav__item--menuToggle a {
+	background: url("/ea-demo/frontend/pbAssets/build/images/en_menu_open.png") no-repeat center center;
+	width: 32px;
+	text-indent: -999px;
+	overflow:hidden;
+}
+
+.en__ecnav__list--responsive {
+	position: absolute;
+	left:0;
+	right:0;
+	background-color:${blueprint~nav_hover};
+	border: 0;
+	margin:0;
+	padding: 12px;
+	list-style:none;
+	z-index:99;
+}
+.en__ecnav__list--responsive ol{
+	padding:0 12px;
+	margin:0;
+	list-style:none;
+}
+.en__ecnav__list--responsive a {
+	display:inline-block;
+	padding: 9px 12px;
+}
+ 
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+
+.wrapper {
+	width: 100%;
+	padding: 0 12px;
+	box-sizing: border-box;
+}
+	html .en__component--row {
+		display: block;
+	}
+	html .en__component--row--2 .en__component--column {
+		width: 100%;
+	}
+	html .en__component--row.en__component--advrow {
+		display:block;
+	}
+	html .en__component--column.en__component--advcolumn {
+		width: 100%;
+	}
+	html .en__productList__item {
+		flex-basis: 50%;
+	}
+	
+	html .en__component--ecfeature .en__ecfeature__image {
+		flex:0 0 100%;
+		width: 100%;
+	}
+	html .en__component--ecfeature .en__ecfeature__image img{
+		max-width: 100%;
+		max-height: 300px;
+	}
+	html .en__component--ecfeature .en__ecfeature__content {
+		flex-basis: 100%;
+		margin-left:0;
+	}
+	
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+	html .en__productList__item {
+		flex-basis: 100%;
+	}
+}
+    </style>
+
+		
+		
+	</head>
+
+	<body>
+	
+		<div class="wrapper">
+			<div class="header">
+				<h1><img src="${blueprint~logo_image}" />${blueprint~logo_text}</h1>
+			</div>
+			<div class="content">
