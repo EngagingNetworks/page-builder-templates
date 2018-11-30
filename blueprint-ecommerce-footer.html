@@ -1,0 +1,80 @@
+			</div>
+		</div>
+			
+			
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+		</script>
+
+		<script>
+			
+			$(function(){
+			
+				var responsive;
+				var menuOpen = false;
+			
+				function menuCheck(){
+				
+					var w = $(window).width();
+					
+					if(w > 960 && responsive !== false) {
+					
+						$('.en__ecnav__item:not(.en__ecnav__item--cart, .en__ecnav__item--menuToggle)').show();
+						$('.en__ecnav__item--menuToggle').hide()
+						closeMenu();
+					
+						responsive = false;
+					}else if( w < 960 && responsive !== true){
+					
+						$('.en__ecnav__item:not(.en__ecnav__item--cart, .en__ecnav__item--menuToggle)').hide();
+						$('.en__ecnav__item--menuToggle').show()
+						responsive = true;
+					}
+				
+				}
+				
+				
+				function closeMenu(){
+					$('.en__ecnav__list--responsive').hide();
+					$('.en__ecnav__item--menuToggle').removeClass('active');
+					menuOpen = false;
+				}				
+				function openMenu(){
+					$('.en__ecnav__list--responsive').show();
+					$('.en__ecnav__item--menuToggle').addClass('active');
+					menuOpen = true;
+				}
+				
+				$('body').on('click', '.en__ecnav__item--menuToggle a', function(){
+				
+					menuOpen ? closeMenu() : openMenu();
+				
+					return false;
+				});
+				$('.en__ecnav--sticky').each(function(){
+				
+					var $ol = $(this).find('.en__ecnav__list--main')
+					
+					
+					var $items = $ol.find('> li:not(.en__ecnav__item--cart)');
+					
+					if(!$items.length) return;
+					$ol.prepend('<li class="en__ecnav__item en__ecnav__item--menuToggle"><a href="#">Menu</a></li>')
+
+					$responsiveMenu = $('<ol class="en__ecnav__list--responsive"></ol>').append($items.clone());
+					$responsiveMenu.find('.en__ecnav__item').removeClass('en__ecnav__item en__ecnav__item--submenu')
+					$responsiveMenu.find('.en__ecnav__list').removeClass('en__ecnav__list  en__ecnav__list--submenu')
+					$responsiveMenu.hide();
+					
+					$(this).append($responsiveMenu);
+					
+				})
+				menuCheck();
+				$(window).on('resize', menuCheck)
+				
+			
+			})
+			
+		</script>
+	</body>
+</html>
