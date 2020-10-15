@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${page~title}</title>
+  <!-- Address bar color in mobile browser -->
+  <meta name="theme-color" content="#ff6600" />
+
+
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=${blueprint~gatrackingid}"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+     gtag('config', '${blueprint~gatrackingid}');
+    </script>
+</head>
+
+<body>
+    
+    <!-- Start 4Site Template Body Wrapper -->
+    <div id="main-content-wrapper">
+    <div id="main-content">
+    <div id="main-content-inner">
+        
+        <p><img alt="" class="logo" data-ratio-lock="true" data-unit="px" src="${blueprint~headerlogo}" width="${blueprint~headerlogowidth}"/></p>
+        
