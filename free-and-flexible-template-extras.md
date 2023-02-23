@@ -8,7 +8,6 @@ Here are some extra things you might want to try:
     content: "£";
     position: absolute;
     top: 47%;
-    /* content: ""; */
     left: 16px;
     font-size: 16px;
     transform: translateY(-50%);
