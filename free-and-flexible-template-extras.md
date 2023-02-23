@@ -5,18 +5,18 @@ Here are some extra things you might want to try:
 
 ```css
 .en__field--donationAmt .en__field__item--other:before {
-	    content: "£";
-	    position: absolute;
-	    top: 47%;
-	    /* content: ""; */
-	    left: 16px;
-	    font-size: 16px;
-	    transform: translateY(-50%);
-	    color: #107783;
-	}
-	input.en__field__input.en__field__input--other {
-		text-align: center !important;
-	}
+    content: "£";
+    position: absolute;
+    top: 47%;
+    /* content: ""; */
+    left: 16px;
+    font-size: 16px;
+    transform: translateY(-50%);
+    color: #107783;
+}
+input.en__field__input.en__field__input--other {
+	text-align: center !important;
+}
  ```
  
  The templates use variables to control much of the styling. Many of these are exposed in the Blueprint, but not everything. 
