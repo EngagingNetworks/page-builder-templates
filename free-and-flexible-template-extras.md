@@ -19,7 +19,7 @@ input.en__field__input.en__field__input--other {
  ```
  
  The templates use variables to control much of the styling. Many of these are exposed in the Blueprint, but not everything. 
- If you want to set a variable to something else, just add it to the ```html<body>``` tab like many of the others have. 
+ If you want to set a variable to something else, just add it to the ```<body>``` tab like many of the others there. 
  For example (with your own values), 
 
   ```css
