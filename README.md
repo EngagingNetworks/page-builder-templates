@@ -6,6 +6,6 @@ Templates in page-builder require a header and a footer. These are separated int
 
 - **Ecommerce** - for our eCommerce page types. There is a header, footer, and import file.
 
-- **Blueprint Multistep** - our old blueprint multi-step templates. These have been replaced by the new Free and Flexible templates by 4Site
+- **Blueprint Multistep** - our old blueprint multi-step templates. These have been replaced by the newest "Free & Flexible page template V2" by 4Site
 
-- **Blueprint Wide** - for our blueprint wide templates page types. These have been replaced by the new Free and Flexible templates by 4Site
+- **Blueprint Wide** - for our blueprint wide templates page types. These have been replaced by the newest "Free & Flexible page template V2" by 4Site
