@@ -1,5 +1,4 @@
-Our newest "Free & Flexible page template V2" by 4Site.
-
+# Extra things you can do with the Free & Flexible page template V2 by 4Site
 Here are some extra things you might want to try:
 
 **Add a currency symbol and centre the Donation Other box**
